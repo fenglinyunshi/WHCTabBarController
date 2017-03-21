@@ -24,7 +24,7 @@
         // 保存按钮个数
         _itemCount = itemCount;
         
-        // 设置背景颜色为图片
+        // 设置背景颜色
         self.backgroundColor = [UIColor whiteColor];
         
         // 创建按钮
@@ -34,6 +34,7 @@
     return self;
 }
 
+#pragma mark 创建tabBarItem
 - (void)createBtn {
     // 循环创建按钮
     
@@ -78,6 +79,7 @@
     }
 }
 
+#pragma mark tabBarItem被点击让代理使UITabBarController的子控制器与其对应
 - (void)btnClicked:(UIButton *)btn {
 
     if (0 == btn.tag||1 == btn.tag) {
