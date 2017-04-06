@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA071AD21E95CEF300295AEC /* 自定义tabBar并modal出半透明的控制器的view.gif in Resources */ = {isa = PBXBuildFile; fileRef = DA071AD11E95CEF300295AEC /* 自定义tabBar并modal出半透明的控制器的view.gif */; };
 		DAE11F1B1E811569002BDEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE11F1A1E811569002BDEF9 /* main.m */; };
 		DAE11F1E1E811569002BDEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE11F1D1E811569002BDEF9 /* AppDelegate.m */; };
 		DAE11F211E81156A002BDEF9 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE11F201E81156A002BDEF9 /* MyTabBarViewController.m */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA071AD11E95CEF300295AEC /* 自定义tabBar并modal出半透明的控制器的view.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "自定义tabBar并modal出半透明的控制器的view.gif"; sourceTree = "<group>"; };
 		DAE11F161E811569002BDEF9 /* WHCTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHCTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE11F1A1E811569002BDEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAE11F1C1E811569002BDEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		DAE11F191E811569002BDEF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA071AD11E95CEF300295AEC /* 自定义tabBar并modal出半透明的控制器的view.gif */,
 				DAE11F5B1E81165D002BDEF9 /* myCenter.png */,
 				DAE11F5C1E81165D002BDEF9 /* home.png */,
 				DAE11F1A1E811569002BDEF9 /* main.m */,
@@ -301,6 +304,7 @@
 			files = (
 				DAE11F291E81156A002BDEF9 /* LaunchScreen.storyboard in Resources */,
 				DAE11F601E811695002BDEF9 /* Images.xcassets in Resources */,
+				DA071AD21E95CEF300295AEC /* 自定义tabBar并modal出半透明的控制器的view.gif in Resources */,
 				DAE11F5D1E81165D002BDEF9 /* myCenter.png in Resources */,
 				DAE11F5E1E81165D002BDEF9 /* home.png in Resources */,
 				DAE11F551E8115F6002BDEF9 /* LiveViewController.xib in Resources */,
@@ -568,6 +572,7 @@
 				DAE11F451E81156A002BDEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAE11F461E81156A002BDEF9 /* Build configuration list for PBXNativeTarget "WHCTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +581,7 @@
 				DAE11F481E81156A002BDEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAE11F491E81156A002BDEF9 /* Build configuration list for PBXNativeTarget "WHCTabBarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +590,7 @@
 				DAE11F4B1E81156A002BDEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
